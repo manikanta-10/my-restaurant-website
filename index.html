@@ -1,0 +1,249 @@
+<html>
+    <head>
+        <style>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero {
+            background: linear-gradient(135deg, #2c3e50, #4ca1af);            
+            background-size: cover;
+            background-position: center;
+            color: whitesmoke;
+            text-align: center;
+            padding: 100px 20px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: gold;
+        }
+        
+        .hero h2{
+            font-size: 38px;
+        }
+        
+        .hero p {
+            font-size: 25px;
+        }
+        button
+        {
+            background-color: orange;
+            border: 5px solid red;
+            padding: 35px;
+            border-radius: 25px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 20px;
+            transition: all 0.4s ease-in-out;
+        }
+        table
+        {
+            font-size: 30px;
+        }
+        b{
+            text-align: right;
+        }
+        </style>
+        <title>Restaurant Menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body bgcolor="grey">
+        <img src=" " width=" " height=" ">
+        <div class="container">
+        <div class="hero">
+            <h1>SRI SAI GANESH FAMILY RESTAURANT</h1>
+            <h2>Welcome to Our Restaurant</h2>
+            <p>Good Food, Good Health 🥗✨</p>
+        </div>
+        <center>
+            <span>
+        <button onclick="Information('Information0')">Menu</button></span>
+        <span>
+            <button onclick="Information('Information1')">About</button>
+        </span>
+        <span>
+            <button onclick="Information('Information2')">Contact</button>
+             </span>
+        <span>
+            <button onclick="Information('Information3')">Location</button>
+        </span>
+        </center>
+        </div>
+        <br><br><br>
+        <center>
+            <div id="Information2" class="myClass" style="display: none;">
+                <table border="0" cellpadding="10px" width="50%" height="30%" style="background-color:blanchedalmond;border-radius: 40px;"><tr><td>
+                <p>📍 <strong>Address:</strong>Karakatta Down,Bhadrirajupalem Village</p>
+                <p>📞 <strong>Phone:</strong> +91 9550612695</p>
+                <p>📧 <strong>Email:</strong> contact@restaurantname.com</p>
+                <h3>Opening Hours</h3>
+                <p>🕒 Mon – Fri: 11:00 AM – 10:00 PM</p>
+                <p>🕒 Sat – Sun: 10:00 AM – 11:00 PM</p>
+            </td></tr></table>
+        </div>
+        </center>   
+         
+        <center>
+            <div id="Information1" class="myClass" style="display: none;">
+                <table border="3" cellpadding="20px" width="100%" height="80%" style="background-color: lavenderblush;"><tr><td>
+                <p align="center"><strong>About Our Restaurant</strong></p><br>
+                <p align="center">Welcome to our restaurant — a place where great food meets warm smiles. We believe that a good meal is more than just eating; it’s about sharing moments, laughter, and memories with the people you love.</p>
+                <p align="center">Our journey started with a simple idea: serve delicious food made with fresh ingredients and a lot of heart. Every dish on our menu is prepared with care, inspired by authentic flavors and our passion for cooking.</p>
+                <p align="center">Whether you’re here for a quick bite, a family dinner, or a celebration with friends, we want you to feel at home. From the aroma of freshly cooked meals to the friendly service from our team, everything is designed to make your visit special.</p>
+                <p align="center"><strong>We don’t just serve food — we serve happiness on a plate.</strong></p>
+                <p align="center">So come in, take a seat, and let us treat you to flavors that will make you smile.</p></td></tr></table>
+            </div>
+        </center>
+
+         <center>
+            <div id="Information3" class="myClass" style="display: none;">
+                <div style="width:80%; height:100$;">
+                    
+                    <h1>Contact Us</h1>
+                    <h2>Visit us at our location.</h2>
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.843137245818!2d80.7900844472314!3d16.331746042123658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a000a59c905ad%3A0x70d50709351633e8!2s8QJR%2BC96%2C%20South%20Valluru%2C%20Andhra%20Pradesh%20521163!5e0!3m2!1sen!2sin!4v1773159983364!5m2!1sen!2sin"
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+                </div>
+            </div>
+        </center>
+
+         <center>
+            <div id="Information0" class="myClass" style="display: none;">
+                <table border="1" cellpadding="20px" style="background-color: lavenderblush;"><tr><td>
+                <div>
+            <span><button onclick="Info('Info0')" style="background-color: rgb(60, 150, 122); border: 4px dotted blue;">VEG ITEMS</button></span> 
+            <span><button onclick="Info('Info1')" style="background-color: rgb(60, 150, 122); border: 4px dotted blue;">NON-VEG ITEMS</button></span>
+            <span><button onclick="Info('Info2')" style="background-color: rgb(60, 150, 122); border: 4px dotted blue;">DRINKS</button></span></div></div>
+                </td></td> </tr></table>
+        </center><br><br><br>
+
+        <center>
+            <div id="Info0" class="myClass1" style="display: none;">
+                <table border="0" cellpadding="20" width="40%" style="background-color: burlywood; border-radius: 40px;"><tr><td>
+                    <table width="100%"><tr>
+                        <tr><td align="center"><b>VEG STARTERS</b></td></tr>
+                        <tr><td><i>Gobi Manchuria</i></td><td align="right"><b>₹140</b></td></tr>
+                        <tr><td><i>Chilli Gobi</i></td><td align="right"><b>₹160</b></td></tr>
+                        <tr><td><i>Chilli Paneer</i></td><td align="right"><b>₹220</b></td></tr>
+                        <tr><td><i>Paneer Manchuria</i></td><td align="right"><b>₹200</b></td></tr>
+                        <tr><td><i>Paneer 65</i></td><td align="right"><b>₹200</b></td></tr>
+                        <tr><td><i>Kaju Fry</i></td><td align="right"><b>₹200</b></td></tr>
+                        <tr><td><i>Boiled Palli</i></td><td align="right"><b>₹100</b></td></tr>
+                        <tr><td><i>Palli Masala</i></td><td align="right"><b>₹120</b></td></tr>
+                        <tr><td><i>Kira & Carrot Salad</i></td><td align="right"><b>₹100</b></td></tr>
+                        <tr><td align="center"><b>VEG CURRIES</b></td></tr>
+                        <tr><td><i>Paneer Masala</i></td><td align="right"><b>₹180</b></td></tr>
+                        <tr><td><i>Kadai Paneer</i></td><td align="right"><b>₹220</b></td></tr>
+                        <tr><td><i>Paneer Butter Masala</i></td><td align="right"><b>₹200</b></td></tr></tr>
+                    </table></td></tr>
+                </table>
+            </div>
+        </center>
+
+        <center>
+            <div id="Info1" class="myClass1" style="display: none;">
+                <table border="0" cellpadding="20" width="40%" style="background-color: burlywood; border-radius: 40px;"><tr><td>
+                    <table width="100%"><tr>
+                        <tr><td align="center"><b>NON-VEG STARTERS</b></td></tr>
+                        <tr><td><i>Chilli Chicken</i></td><td align="right"><b>₹200</b></td></tr>
+                        <tr><td><i>Chicken 65</i></td><td align="right"><b>₹220</b></td></tr>
+                        <tr><td><i>Chicken Manchuria</i></td><td align="right"><b>₹180</b></td></tr>
+                        <tr><td><i>Pepper Chicken</i></td><td align="right"><b>₹170</b></td></tr>
+                        <tr><td><i>Kaju Chicken</i></td><td align="right"><b>₹230</b></td></tr>
+                        <tr><td><i>Chicken Mejeistric</i></td><td align="right"><b>₹260</b></td></tr>
+                        <tr><td><i>Chicken 555</i></td><td align="right"><b>₹260</b></td></tr>
+                        <tr><td><i>Dragon Chicken</i></td><td align="right"><b>₹270</b></td></tr>
+                        <tr><td><i>Chicken Wings(5 pcs)</i></td><td align="right"><b>₹280</b></td></tr>
+                        <tr><td><i>Chicken Lollipops(5 pcs)</i></td><td align="right"><b>₹310</b></td></tr>
+                        <tr><td><i>Chicken Joints(5 pcs)</i></td><td align="right"><b>₹350</b></td></tr>
+                        <tr><td><i>Popcorn Chicken</i></td><td align="right"><b>₹250</b></td></tr>
+                        <tr><td><i>Guntur Chicken</i></td><td align="right"><b>₹230</b></td></tr>
+                        <tr><td><i>Chicken Liver Fry</i></td><td align="right"><b>₹160</b></td></tr>
+                        <tr><td><i>Chicken Pakodi</i></td><td align="right"><b>₹150</b></td></tr>
+                        <tr><td><i>Prawns Manchuria</i></td><td align="right"><b>₹240</b></td></tr>
+                        <tr><td><i>Prawns 65</i></td><td align="right"><b>₹250</b></td></tr>
+                        <tr><td><i>Chilli Prawns</i></td><td align="right"><b>₹260</b></td></tr>
+                        <tr><td><i>Loose Prawns</i></td><td align="right"><b>₹280</b></td></tr>
+                        <tr><td align="center"><b>NON-VEG CURRIES</b></td></tr>
+                        <tr><td><i>Chicken Bone Curry</i></td><td align="right"><b>₹140</b></td></tr>
+                        <tr><td><i>Chicken Boneless Curry</i></td><td align="right"><b>₹150</b></td></tr>
+                        <tr><td align="center"><b>BIRYANI'S</b></td></tr>
+                        <tr><td><i>Chicken Dum(Half)</i></td><td align="right"><b>₹150</b></td></tr>
+                        <tr><td><i>Chicken Dum(Full)</i></td><td align="right"><b>₹200</b></td></tr>
+                        <tr><td><i>Chicken Fry(Half)</i></td><td align="right"><b>₹150</b></td></tr>
+                        <tr><td><i>Chicken Fry(Full)</i></td><td align="right"><b>₹200</b></td></tr>
+                        <tr><td><i>S.P Chicken(Boneless) </i></td><td align="right"><b>₹250</b></td></tr>
+                        <tr><td><i>Rambo Biryani</i></td><td align="right"><b>₹250</b></td></tr>
+                        <tr><td><i>Chicken Mughlai</i></td><td align="right"><b>₹280</b></td></tr>
+                        <tr><td><i>Chicken Family Pack</i></td><td align="right"><b>₹550</b></td></tr>
+                        <tr><td><i>Rambo Family Pack</i></td><td align="right"><b>₹650</b></td></tr>
+                        <tr><td><i>Prawns Biryani</i></td><td align="right"><b>₹300</b></td></tr>
+                        <tr><td><i>Biryani Rice</i></td><td align="right"><b>₹100</b></td></tr></tr>
+                    </table></td></tr>
+                </table>
+            </div>
+        </center>
+        <center>
+            <div id="Info2" class="myClass1" style="display: none;">
+                <table border="0" cellpadding="20" width="40%" style="background-color: burlywood; border-radius: 40px;"><tr><td>
+                    <table width="100%"><tr>
+                        <tr><td align="center"><b>COOL DRINKS</b></td></tr>
+                        <tr><td><i>Thums Up(500 ml)</i></td><td align="right"><b>₹50</b></td></tr>
+                        <tr><td><i>Thums Up(250 ml)</i></td><td align="right"><b>₹20</b></td></tr>
+                        <tr><td><i>Sprite(250 ml)</i></td><td align="right"><b>₹20</b></td></tr>
+                        <tr><td><i>Soda(750 ml)</i></td><td align="right"><b>₹30</b></td></tr>
+                        <tr><td><i>Soda(250 ml)</i></td><td align="right"><b>₹20</b></td></tr>
+                        <tr><td><i>Water Bottle(1 Lit)</i></td><td align="right"><b>₹20</b></td></tr></tr>
+                    </table></td></tr>
+                </table>
+            </div>
+        </center>
+        <script>
+        function Information(id)
+        {
+            const allContents=document.querySelectorAll('.myClass');
+            allContents.forEach(section =>{
+                section.style.display='none';
+            });
+            const subContents=document.querySelectorAll('.myClass1');
+            subContents.forEach(section =>{
+                section.style.display='none';
+            });
+            const selectedContent=document.getElementById(id);
+            if(selectedContent)
+            {
+                selectedContent.style.display='block';
+            }
+        }    
+        </script>
+
+
+        <script>
+        function Info(id)
+        {
+            const allContents=document.querySelectorAll('.myClass1');
+            allContents.forEach(section =>{
+                section.style.display='none';
+            });
+            const selectedContent=document.getElementById(id);
+            if(selectedContent)
+            {
+                selectedContent.style.display='block';
+            }
+        }
+        </script>
+    </body>
+</html>
+ 
